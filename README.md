@@ -77,7 +77,5 @@ install.packages(c(
 
 This project is licensed under the MIT License.
 
-## 🙋‍♂️ Author
 
-Enes Çelik – [LinkedIn](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
 
