@@ -1,8 +1,8 @@
-# 📈 Forecasting-Foreign-Exchange-Rate-by-using-ARIMA-Model
+# Forecasting-Foreign-Exchange-Rate-by-using-ARIMA-Model
 
 This project performs time series analysis and forecasting of EUR/USD currency pair hourly data using the **Tradermade API** and **SARIMA models** in R. The analysis includes data acquisition, preprocessing, differencing, autocorrelation checks, and forecasting using seasonal ARIMA models.
 
-## 🔧 Features
+## Features
 
 - Fetches hourly EUR/USD forex data from the [Tradermade API](https://tradermade.com/)
 - Parses and structures time series data
@@ -11,7 +11,7 @@ This project performs time series analysis and forecasting of EUR/USD currency p
 - Computes autocorrelations
 - Fits a SARIMA model for forecasting future values
 
-## 📦 Requirements
+## Requirements
 
 Make sure you have R installed with the following packages:
 
@@ -22,12 +22,12 @@ install.packages(c(
 ))
 ```
 
-## 📁 File Overview
+## File Overview
 
 - **main.R** – The main script that performs the entire pipeline from data fetching to forecasting.
 - **API_KEY** – Replace this string inside the code with your own Tradermade API key.
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
@@ -45,7 +45,7 @@ install.packages(c(
    - Fit a SARIMA model
    - Forecast future price movements
 
-## 📊 Key Steps
+## Key Steps
 
 - **Data Retrieval:**
   ```r
@@ -67,13 +67,13 @@ install.packages(c(
   sarima.for(eur_open, n.ahead = 11, ...)
   ```
 
-## 📌 Notes
+## Notes
 
 - The script uses `acf2()` and `sarima()` functions from the `astsa` package.
 - Ensure your time zone settings are compatible with the API timestamps.
 - This script focuses on **open prices**; feel free to modify for close, high, or low prices.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
